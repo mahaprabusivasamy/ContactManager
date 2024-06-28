@@ -1,0 +1,234 @@
+/* .main-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .create-contact-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-contact-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  
+  .form-wrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 3;
+  }
+  
+  .contact-container.blur {
+    filter: blur(5px);
+    pointer-events: none;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .contact-card {
+    position: relative;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .image-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #c3eeff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .image-placeholder img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .image-placeholder {
+      width: 80%;
+      height: auto;
+    }
+  }
+   */
+   .main-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .create-contact-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-contact-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  
+  .form-wrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 3;
+  }
+  
+  .contact-container.blur {
+    filter: blur(5px);
+    pointer-events: none;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .contact-card {
+    position: relative;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .image-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .image-placeholder img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .image-placeholder {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
